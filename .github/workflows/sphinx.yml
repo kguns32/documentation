@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  build:
+    name: Sphinx Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: kguns32/documentation@main
+        id: documentation
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          create_readme: true
