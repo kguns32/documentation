@@ -1,2 +1,2 @@
 ## Creating a docs directory
-### Attempting to make new action workflow to host html files
+### Checking that we only need the html and static files to have gh-pages host our documentation
